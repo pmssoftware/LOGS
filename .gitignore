@@ -1,0 +1,19 @@
+# Fertige Programme und erzeugte Datenbanken
+outputs/
+*.db
+
+# Lokale Werkzeuge, Downloads und Testdateien
+work/*
+
+# Nur die zum Bauen benötigte SQLite-Amalgamation gehört ins Repository.
+!work/vendor/
+work/vendor/*
+!work/vendor/sqlite-amalgamation-3530400/
+work/vendor/sqlite-amalgamation-3530400/*
+!work/vendor/sqlite-amalgamation-3530400/sqlite3.c
+!work/vendor/sqlite-amalgamation-3530400/sqlite3.h
+
+# Temporäre Dateien
+*.tmp
+*.bak
+*~
