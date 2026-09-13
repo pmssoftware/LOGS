@@ -12,6 +12,10 @@ weder .NET noch Java. Unter Linux kann es mit Wine verwendet werden.
 
 Der aktuelle Entwicklungsstand ist **Version 1.0.117**.
 
+## Screenshot
+
+![LogS-Hauptfenster im Dark Mode](docs/screenshot.png)
+
 ## Funktionen
 
 - Verwaltung von Artikeln, Mengen, Einheiten und Preisen
